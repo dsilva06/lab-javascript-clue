@@ -92,7 +92,7 @@ name: pistol --- weight: 20
 
 ### Rooms
 
-```
+
 name: Dining Room
 name: Conservatory
 name: Kitchen
@@ -108,4 +108,4 @@ name: Observatory
 name: Theater
 name: Guest House
 name: Patio
-```
+
