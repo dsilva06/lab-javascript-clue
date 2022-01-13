@@ -169,12 +169,12 @@ function selectRandom(arr) {
 
 function pickMystery() {
 
-  let crime = {
+  return  {
   suspect: selectRandom(suspectsArray), 
   weapon: selectRandom(weaponsArray), 
   room: selectRandom(roomsArray)
 };
-  return crime
+ 
 
 
 }
@@ -182,9 +182,9 @@ function pickMystery() {
 
 // ITERATION 3
 
-function revealMystery(crime) {
+function revealMystery() {
 
-    let message = (`${crime.suspect.firstname} ${crime.suspect.lastName} killed Mr.Boddyy using ${crime.weapon.name} in the ${crime.room.name}!`);
+    let message = ('{suspect.firstname} {suspect.lastName} killed Mr.Boddyy using {weapon.name} in the {room.name}!');
     return message;
 
 }
